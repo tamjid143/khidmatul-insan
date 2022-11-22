@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* Navbar Customization */
+.navbar {
+  background-color: #eaece5;
+}
+.carousel-item > img {
+  height: 70vh;
+  background-position: center;
+  object-fit: cover;
+}
+/* Main Section Customization */
+.main-section {
+  background-color: yellow;
+  height: 60vh;
+  margin: 25px 0px;
+}
+.main-section-left {
+}
+.main-section-right {
+  height: 50vh;
+
+  color: black;
+  background-color: #eaece5;
+}
+.our-goal {
+  height: 30vh;
+  background-color: #eaece5;
+}
+/* Footer Section Customization */
+.email-section {
+  height: 30vh;
+}
+.bottom-section {
+  background-color: rgb(1, 153, 1);
+  margin-top: 25px;
+  width: 100vw;
+}
+.bottom-section > div {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.bottom-section > div > a {
+  text-decoration: underline;
+  color: white;
+}
+.social-section {
+  background-color: black;
+}
