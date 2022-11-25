@@ -4,6 +4,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+  background-color: #eaece5;
 }
 /* Navbar Customization */
 .navbar {
@@ -26,11 +27,9 @@ body {
   height: 50vh;
 
   color: black;
-  background-color: #eaece5;
 }
 .our-goal {
   height: 30vh;
-  background-color: #eaece5;
 }
 /* Footer Section Customization */
 .email-section {
@@ -38,8 +37,7 @@ body {
 }
 .bottom-section {
   background-color: rgb(1, 153, 1);
-  margin-top: 25px;
-  width: 100vw;
+  height: 30vh;
 }
 .bottom-section > div {
   display: flex;
