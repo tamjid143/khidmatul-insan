@@ -6,10 +6,27 @@ body {
   padding: 0px;
   background-color: #eaece5;
 }
+.button {
+  font-weight: bold;
+  color: white;
+  background-color: #8b9a46;
+  padding: 5px 10px;
+}
+.button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #8b9a46;
+  border: 1px solid #8b9a46;
+}
 /* Navbar Customization */
 .navbar {
   background-color: #eaece5;
 }
+
+.navbar-brand > img {
+  height: 50px;
+}
+
 .carousel-item > img {
   height: 70vh;
   background-position: center;
@@ -29,14 +46,17 @@ body {
   color: black;
 }
 .our-goal {
-  height: 30vh;
 }
 /* Footer Section Customization */
-.email-section {
-  height: 30vh;
+.logo {
+  height: 200px;
+  width: 200px;
 }
+.email-section {
+  padding: 30px 60px;
+}
+
 .bottom-section {
-  background-color: rgb(1, 153, 1);
   height: 30vh;
 }
 .bottom-section > div {
@@ -46,7 +66,7 @@ body {
 }
 .bottom-section > div > a {
   text-decoration: underline;
-  color: white;
+  color: blue;
 }
 .social-section {
   background-color: black;
